@@ -262,8 +262,6 @@ def makeBanner(pic):
 card = addGreeting(makeBanner(chromakey(makePicture(pickAFile()), addArtifyToCard(makePicture(pickAFile()), backgroundPattern(makePicture(pickAFile()))), 255, 145, 700)))
 show(card)
 
-#filename = filename.replace('.jpg', '')
-#writePictureTo(picture, filename + "_vMirror" + ".jpg")
 
-#path = "/path/to/output/file"
+#path = "/Users/begun/Git_Repositories/CSUMB/CST205/ThanksgivingCard/images/testing.png"
 #writePictureTo(card, path)
