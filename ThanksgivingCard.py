@@ -256,5 +256,8 @@ def makeBanner(pic):
   cardHeight = 500
   bannerColor = makeColor(232, 101, 5) #used colord from background leaves
   addRectFilled(pic, 0, 0, cardWidth, int(cardHeight * 0.15), bannerColor)
-  show(pic)
-  return pic    
+  #show(pic)
+  return pic 
+# order as follows ----- LeavesBannerOverBlue_700x500 -- Artify Photo -- background Photo
+card = addGreeting(makeBanner(chromakey(makePicture(pickAFile()), addArtifyToCard(makePicture(pickAFile()), backgroundPattern(makePicture(pickAFile()))), 255, 145, 700)))
+show(card)
