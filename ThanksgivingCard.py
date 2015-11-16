@@ -183,9 +183,9 @@ def artify(pic):
 ######################################################
 
 #use the following: chromakey(255, 145, 700)
-def chromakey(pic, background, refX, refY, threshold):
+def chromakey(foreground, pic, refX, refY, threshold):
   
-  foreground = pic
+  background = pic
   #leaves = "images/LeavesBannerOverBlue_700x500.png"
   
   #file1 = pickAFile()
