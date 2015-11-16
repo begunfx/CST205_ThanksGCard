@@ -261,3 +261,9 @@ def makeBanner(pic):
 # order as follows ----- LeavesBannerOverBlue_700x500 -- Artify Photo -- background Photo
 card = addGreeting(makeBanner(chromakey(makePicture(pickAFile()), addArtifyToCard(makePicture(pickAFile()), backgroundPattern(makePicture(pickAFile()))), 255, 145, 700)))
 show(card)
+
+#filename = filename.replace('.jpg', '')
+#writePictureTo(picture, filename + "_vMirror" + ".jpg")
+
+#path = "/path/to/output/file"
+#writePictureTo(card, path)
